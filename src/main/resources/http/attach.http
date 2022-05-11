@@ -1,0 +1,26 @@
+POST http://localhost:8080/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="hqdefault.png"
+
+< C:\Users\png-transparent-ghost-drawing-halloween-ghost-pics-white-marine-mammal-fictional-character.png
+--WebAppBoundary--
+
+###
+
+GET http://localhost:8080/attach/open/aaa154b5-e195-4cf6-9895-971938c65507
+
+###
+GET http://localhost:8080/attach/open_general/aaa154b5-e195-4cf6-9895-971938c65507
+
+###
+GET http://localhost:8080/attach/download/aaa154b5-e195-4cf6-9895-971938c65507
+
+###
+GET http://localhost:8080/attach/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMjk2MjY3LCJleHAiOjE2NTEyOTk4NjcsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.5crAtldDRMiLuiwZSIqCqWo-d8liB_Y-lPHgcGXAw00
+
+###
+DELETE http://localhost:8080/attach/adm/delete/cadc29b8-1810-4f0c-a517-1770823d9a79
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMjk2MjY3LCJleHAiOjE2NTEyOTk4NjcsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.5crAtldDRMiLuiwZSIqCqWo-d8liB_Y-lPHgcGXAw00

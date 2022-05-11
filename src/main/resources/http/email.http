@@ -1,0 +1,2 @@
+GET http://localhost:8080/email/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzMyOTU5LCJleHAiOjE2NTEzMzY1NTksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.2jDWLScKHl1dpfGINLmfghW5LDRSt8vy84Vfovh85v4

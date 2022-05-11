@@ -1,0 +1,45 @@
+11 May 2022 - 10:23:17.137 - com.company.KunUzApplication -  INFO  - Starting KunUzApplication using Java 17.0.1 on LAPTOP-O6J8G5K1 with PID 14120 (C:\Users\abdulbori\IdeaProjects\kun_uz\target\classes started by abdulbori in C:\Users\abdulbori\IdeaProjects\kun_uz)
+11 May 2022 - 10:23:17.141 - com.company.KunUzApplication -  DEBUG - Running with Spring Boot v2.6.6, Spring v5.3.18
+11 May 2022 - 10:23:17.141 - com.company.KunUzApplication -  INFO  - The following 1 profile is active: "dev"
+11 May 2022 - 10:23:17.710 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11 May 2022 - 10:23:17.790 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 71 ms. Found 10 JPA repository interfaces.
+11 May 2022 - 10:23:18.153 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port(s): 8080 (http)
+11 May 2022 - 10:23:18.159 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+11 May 2022 - 10:23:18.159 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/9.0.60]
+11 May 2022 - 10:23:18.276 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+11 May 2022 - 10:23:18.276 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1101 ms
+11 May 2022 - 10:23:18.308 - com.company.config.JwtFilter -  DEBUG - Filter 'jwtFilter' configured for use
+11 May 2022 - 10:23:18.376 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+11 May 2022 - 10:23:18.426 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 5.6.7.Final
+11 May 2022 - 10:23:18.540 - o.h.annotations.common.Version -  INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11 May 2022 - 10:23:18.615 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+11 May 2022 - 10:23:18.775 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+11 May 2022 - 10:23:18.792 - org.hibernate.dialect.Dialect -  INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+11 May 2022 - 10:23:18.926 - Hibernate Types -  INFO  - This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+What if there was a tool that could automatically detect JPA and Hibernate performance issues?
+Hypersistence Optimizer is that tool!
+For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+11 May 2022 - 10:23:19.596 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11 May 2022 - 10:23:19.602 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11 May 2022 - 10:23:20.163 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11 May 2022 - 10:23:20.430 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+11 May 2022 - 10:23:20.439 - com.company.KunUzApplication -  INFO  - Started KunUzApplication in 3.594 seconds (JVM running for 4.357)
+11 May 2022 - 10:23:25.714 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+11 May 2022 - 10:23:25.716 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+11 May 2022 - 10:23:25.718 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,45 @@
+POST http://localhost:8080/profile/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzMyMzc1LCJleHAiOjE2NTEzMzU5NzUsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.l2kjpdRdkIGIjiIUwPuC35FHZehNEzbib_I6iH1QeVc
+
+{
+  "name" : "Abdulbori",
+  "surname" : "Madmusayev",
+  "email" : "salom@gmail.com",
+  "password" : "123456789ehr",
+  "role" : "USER"
+}
+
+###
+GET http://localhost:8080/profile/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzMyMzc1LCJleHAiOjE2NTEzMzU5NzUsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.l2kjpdRdkIGIjiIUwPuC35FHZehNEzbib_I6iH1QeVc
+
+###
+GET http://localhost:8080/profile/adm/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+###
+PUT http://localhost:8080/profile/adm/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+{
+  "name" : "Abdulbori",
+  "surname" : "Madmusayev",
+  "email" : "salom@gmail.com",
+  "password" : "123456789ehr",
+  "role" : "USER"
+}
+
+###
+DELETE http://localhost:8080/profile/adm/delete/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzMyMzc1LCJleHAiOjE2NTEzMzU5NzUsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.l2kjpdRdkIGIjiIUwPuC35FHZehNEzbib_I6iH1QeVc
+
+###
+POST http://localhost:8080/profile/image
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzMyMzc1LCJleHAiOjE2NTEzMzU5NzUsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.l2kjpdRdkIGIjiIUwPuC35FHZehNEzbib_I6iH1QeVc
+Content-Type: application/json
+
+{
+  "id" : "aaa154b5-e195-4cf6-9895-971938c65507"
+}

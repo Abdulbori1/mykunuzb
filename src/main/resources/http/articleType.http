@@ -1,0 +1,37 @@
+POST http://localhost:8080/article_type/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+{
+  "key" : "Dolzarb Xabarlar",
+  "nameUz" : "Dolzarb Xabarlar",
+  "nameRu" : "Актуальные новости",
+  "nameEn" : "Actual news"
+}
+
+###
+GET http://localhost:8080/article_type/adm/pagination
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMjk2MjY3LCJleHAiOjE2NTEyOTk4NjcsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.5crAtldDRMiLuiwZSIqCqWo-d8liB_Y-lPHgcGXAw00
+
+###
+GET http://localhost:8080/article_type/adm/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMjk2MjY3LCJleHAiOjE2NTEyOTk4NjcsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.5crAtldDRMiLuiwZSIqCqWo-d8liB_Y-lPHgcGXAw00
+
+###
+GET http://localhost:8080/article_type/public/list/ru
+
+###
+PUT http://localhost:8080/article_type/adm/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+{
+  "key" : "News",
+  "nameUz" : "Dolzarb Xabarlar",
+  "nameRu" : "Актуальные новости",
+  "nameEn" : "Actual news"
+}
+
+###
+DELETE http://localhost:8080/article_type/adm/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8

@@ -1,0 +1,37 @@
+POST http://localhost:8080/category/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+{
+  "key" : "category",
+  "nameUz" : "Iqtisodiyot",
+  "nameRu" : "Экономика",
+  "nameEn" : "Economics"
+}
+
+###
+GET http://localhost:8080/category/adm/pagination
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+###
+GET http://localhost:8080/category/adm/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+###
+GET http://localhost:8080/category/public/list/en
+
+###
+PUT http://localhost:8080/category/adm/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
+
+{
+  "key" : "category",
+  "nameUz" : "Iqtisodiyot",
+  "nameRu" : "Экономика",
+  "nameEn" : "Economics"
+}
+
+###
+DELETE http://localhost:8080/category/adm/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjUxMzI0NTM5LCJleHAiOjE2NTEzMjgxMzksImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.727TgcDpADX2PBbIwyPGLYwErRmXBp1gW5AL3LbtCs8
